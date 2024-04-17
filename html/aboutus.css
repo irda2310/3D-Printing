@@ -1,0 +1,148 @@
+/* navbari */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Nanum+Myeongjo&family=Raleway:ital,wght@1,200&family=Rubik+Pixels&display=swap');
+*{
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+.container1{
+    width: 800px;
+}
+.container{
+    width: 900px;
+}
+.navbar {
+    color: transparent;
+    
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+menu-icon{
+    width: 10px;
+    height: 20%;
+    cursor: pointer;
+    margin-left: 40px ;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #1d1b1b;
+    
+}
+
+ul li a:hover {
+    background-color: #eee;
+    color: #100f0f;
+}
+
+
+
+
+
+
+body {
+   
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify; /* Updated code */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  .foto1 {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+  }
+
+
+
+  /* footer */
+
+
+  footer{
+    margin:0 0 0 0;
+    background-color: rgb(249, 249, 249);
+  }
+  .footer p{
+    font-size: 15px;
+  }
+  #footer-container{
+    width: 100%;
+    display:flex; 
+  }
+  #footer-container>div{
+    margin:10px auto;
+    padding: 30px;
+  }
+  #footer-container>div>p{
+    color: rgb(111, 88, 88);
+  }
+  #footer-container>div>p>i{
+    margin: 3px 3px;
+  }
+  #copyright{
+    color: #6a6a6a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #line{
+    background-color: #c2c2c2;
+    width: 900px;
+    height:1.5px;
+    margin:0 auto;
+  }
+  #footer-container>div>p>a{
+    text-decoration: none;
+    color: rgb(145, 123, 123);
+    
+  }
+  .footer>div{
+    margin: 5px auto;
+    width:10px;
+    align-items: center;
+  }
+  
